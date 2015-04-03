@@ -1,0 +1,29 @@
+int velocity = 0
+int oldvel = velocity
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(13, OUTPUT);
+pinMode(12, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if velocity >= || <= oldvel
+  {
+    digitalWrite(13, HIGH);
+  }
+  else 
+  {
+    digitalWrite(13, LOW);
+  }
+  
+  if velocity < oldvel
+  {
+    digitalWrite(12, HIGH);
+  }
+  else
+  {
+    digitalWrite(12, LOW);
+  }
+}
